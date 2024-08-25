@@ -1,0 +1,19 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+#include <skeleton64.dtsi>
+#include <lk2nd.dtsi>
+
+/ {
+	qcom,msm-id = <QCOM_ID_SDM429 0x00>;
+	qcom,board-id = <0x08 0x00>;
+};
+
+&lk2nd {
+	gtowifi {
+		model = "Samsung Galaxy Tab A 8.0″ 2019 (SM-T290)";
+		compatible = "samsung,gtowifi";
+		lk2nd,match-bootloader = "T290*";
+
+		lk2nd,dtb-files = "sdm429-samsung-gtowifi";
+	};
+};

@@ -11,3 +11,4 @@ ADTBS += \
 
 QCDTBS += \
 	$(LOCAL_DIR)/msm8937-motorola-cedric.dtb \
+	$(LOCAL_DIR)/sdm429-samsung.dtb \
